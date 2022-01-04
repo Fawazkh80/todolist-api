@@ -13,14 +13,14 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
-BASE_DIR = Path(__file__).resolve().parent.parent
+BASE_DIR = Path(__file__).resolve().parent.parentn
 
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-=t@z)o7cw)p990^nn=v_pvd(8l)e3o3!+$uc_b)l5jqpdpt07f'
+SECRET_KEY = 'HIDE'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -79,20 +79,7 @@ WSGI_APPLICATION = 'core.wsgi.application'
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-
-        'NAME': "dcevpimnfi35ah",
-
-        'USER': 'mdhndpjytkzrzc',
-
-        'PASSWORD': '2ba3dd6db6a6c497216c9981c68c544aa51e611454130be9c66eeaa1ed17bd75',
-
-        'HOST': 'ec2-54-220-35-19.eu-west-1.compute.amazonaws.com',
-
-        'PORT': '5432',
-
-    }
+    'HIDED'
 }
 
 
